@@ -9,6 +9,10 @@
     "build": "cross-env NODE_ENV=production webpack",
     "test": "jest --watchAll"
   },
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions"
+  ],
   "dependencies": {
     "axios": "^0.21.1",
     "json-server": "^0.16.3",
